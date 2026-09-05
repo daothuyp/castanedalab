@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People | Castañeda Lab</title>
+<meta name="description" content="Meet the Castañeda Lab at Syracuse University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,640&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">Castañeda Lab<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="people.html" aria-current="page">People</a></li>
+      <li><a href="join.html">Join us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">People</p>
+    <h1>The lab</h1>
+    <p class="lede">A small, interdisciplinary group spanning structural biophysics, cell biology, and computation.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+
+    <!--
+      EDIT ME: replace names, bios, and avatar images below with your
+      current roster. Each .avatar div can hold an <img src="..."> of
+      a real photo — just add the <img> tag inside it.
+    -->
+
+    <div class="pi-block">
+      <div class="avatar"></div>
+      <div>
+        <h3>Carlos Castañeda, Ph.D.</h3>
+        <p class="role">Principal Investigator · Associate Professor, Biology &amp; Chemistry</p>
+        <p>Carlos joined Syracuse University in 2014 and leads the lab's work on protein quality control in neurodegenerative disease. His training is in molecular biophysics, and his lab studies how the shuttle protein UBQLN2 recognizes damaged proteins, undergoes phase separation, and how disease-linked mutations disrupt these processes. He is a member of Syracuse's BioInspired Institute and its disordered-proteins faculty cohort.</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <div class="avatar"></div>
+      <div>
+        <h3>Lab member name</h3>
+        <p class="role">Postdoctoral researcher</p>
+        <p>One or two sentences on their background and current project — replace with your real roster.</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <div class="avatar"></div>
+      <div>
+        <h3>Lab member name</h3>
+        <p class="role">Ph.D. student</p>
+        <p>One or two sentences on their background and current project — replace with your real roster.</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <div class="avatar"></div>
+      <div>
+        <h3>Lab member name</h3>
+        <p class="role">Undergraduate researcher</p>
+        <p>One or two sentences on their background and current project — replace with your real roster.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Alumni</h2>
+    <p>List former lab members here, with where they went next — it's a nice way to show the lab's track record.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year"></span> Castañeda Lab, Syracuse University</span>
+    <span><a href="contact.html">Life Sciences Complex, Syracuse, NY</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
