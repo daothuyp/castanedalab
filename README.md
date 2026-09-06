@@ -39,6 +39,6 @@ A simple static site (HTML/CSS/JS, no build step) ready to host on GitHub Pages.
 
 4. **Wait a minute, then visit your site.** GitHub will show the URL at the top of the Pages settings once it's live (usually `https://<your-username>.github.io/<repo-name>/`).
 
-5. **Optional: custom domain.** If the lab has its own domain, add a `CNAME` file at the repo root containing just the domain name, and point the domain's DNS at GitHub Pages (GitHub's docs walk through the exact records).
+5. **Optional: custom domain, later.** If you ever want the site at its own domain (like `castanedalab.com`) instead of the `github.io` address, that just needs a domain registered and a `CNAME` file added to the repo pointing at it — happy to set that up whenever you're ready.
 
 Any time you edit a file and push to `main`, the live site updates automatically within a minute or two.

@@ -321,21 +321,21 @@ section + section { border-top: 1px solid var(--line); }
 }
 
 /* Publications */
+.pub-year-heading {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 2.4rem 0 0.6rem;
+}
+.pub-year-heading:first-child { margin-top: 0; }
 .pub-list { list-style: none; margin: 0; padding: 0; }
 .pub-item {
-  padding: 1.3rem 0;
+  padding: 1.1rem 0;
   border-top: 1px solid var(--line);
-  display: grid;
-  grid-template-columns: 90px 1fr;
-  gap: 1.4rem;
 }
 .pub-item:first-child { border-top: none; }
-.pub-year { font-family: var(--font-display); font-size: 1.3rem; color: var(--ink-soft); }
 .pub-title { font-weight: 600; margin-bottom: 0.25rem; }
 .pub-meta { color: var(--ink-soft); font-size: 0.94rem; margin-bottom: 0; }
-@media (max-width: 620px) {
-  .pub-item { grid-template-columns: 1fr; gap: 0.3rem; }
-}
 
 /* Callout / join */
 .callout {

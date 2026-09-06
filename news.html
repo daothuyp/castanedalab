@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News | Castañeda Lab</title>
+<meta name="description" content="News from the Castañeda Lab at Syracuse University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,640&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">Castañeda Lab<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="news.html" aria-current="page">News</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="join.html">Join us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">News</p>
+    <h1>Lab news</h1>
+    <p class="lede">Papers, awards, and other milestones from the lab.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <ul class="pub-list">
+
+      <li class="pub-item">
+        <span class="pub-year">2026</span>
+        <div>
+          <p class="pub-title">Undergraduate researcher Mallory Brown awarded a Goldwater Scholarship</p>
+          <p class="pub-meta">Mallory, a double major in neuroscience and statistics, was recognized for her work on domesticated retrotransposon proteins in the lab and is currently helping determine the biomolecular structure of these proteins.</p>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-year">2026</span>
+        <div>
+          <p class="pub-title">Three new papers on ubiquilin structure and phase separation</p>
+          <p class="pub-meta">New work from the lab appeared in Advanced Science, Chemical Science, and The EMBO Journal this year, covering intramolecular interactions in ubiquilins, polyubiquitin-controlled phase separation, and how STI1 domains drive Dsk2 condensation. See the Publications page for details.</p>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-year">2025</span>
+        <div>
+          <p class="pub-title">Featured in Syracuse University Today</p>
+          <p class="pub-meta">The lab's research on how cells decide which damaged proteins to clear was featured in a Syracuse University story, highlighting the dual molecular- and cell-biology approach the team uses to study condensate formation.</p>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-year">Ongoing</span>
+        <div>
+          <p class="pub-title">The lab has moved to the Life Sciences Complex</p>
+          <p class="pub-meta">Our labs and offices are now located in Syracuse University's Life Sciences Complex. See the Contact page for details.</p>
+        </div>
+      </li>
+
+    </ul>
+
+    <p style="margin-top:2.4rem; color: var(--ink-soft); font-size: 0.94rem;">
+      Replace these with your lab's real, current news — grants, talks, new members, media coverage, and so on.
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year"></span> Castañeda Lab, Syracuse University</span>
+    <span><a href="contact.html">Life Sciences Complex, Syracuse, NY</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
