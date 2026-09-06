@@ -286,6 +286,16 @@ section + section { border-top: 1px solid var(--line); }
 }
 
 /* People */
+.person-group-heading {
+  font-size: 0.92rem;
+  color: var(--magenta-deep);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 2.6rem 0 0.2rem;
+}
+.person-group-heading:first-of-type { margin-top: 0; }
+.person-group-heading + .person { border-top: none; }
 .person {
   display: grid;
   grid-template-columns: 96px 1fr;
@@ -300,6 +310,14 @@ section + section { border-top: 1px solid var(--line); }
   border-radius: 50%;
   background: var(--paper-dim);
   border: 1px solid var(--line);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .person h3 { font-size: 1.1rem; margin-bottom: 0.15rem; }
 .person .role { color: var(--magenta-deep); font-size: 0.92rem; font-weight: 600; margin-bottom: 0.5rem; }
